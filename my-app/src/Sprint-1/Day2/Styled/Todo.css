@@ -13,23 +13,30 @@
   .output{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
-    margin: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     height:50px;
     padding-top: 20px;
     margin-top: 30px;
+    display: flex;
+    margin: 20px;
   }
-  .todo input{
-    width: 80%;
+  .Add_input{
+    width: 70%;
     height: 50px;
-    font-size: 20px;
-   
+    font-size: 20px;  
   }
-  .todo button{
-    background-color: royalblue;
+  .cheack_input{
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    margin-right: 10px;
+    
+  }
+  .Call_button{
+    background-color:royalblue;
     color: white;
     height: 58px;
-    width: 55px;
+    width: 100px;
     cursor: pointer;
     font-size: 30px;
     margin-top:10px ;
