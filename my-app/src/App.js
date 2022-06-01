@@ -14,7 +14,8 @@ import React from 'react';
     // import Stopwatch from './Sprint-2/day2/Stopwatch'; //25/05/2022
 // import { Test } from './Sprint-2/day3/Test';
 // import Form from './Sprint-2/day3/Form';
-import Styled from './Sprint-2/day4/Styled';
+// import Styled from './Sprint-2/day4/Styled';
+import Mainroutes from './Sprint-3/Day-1/Day-2/Routes/MainRoutes';
 function App() { 
 
 return (
@@ -32,7 +33,8 @@ return (
       {/* <Stopwatch/> */}
       {/* <Test/> */}
       {/* <Form/> */}
-      <Styled/>
+      {/* <Styled/> */}
+      <Mainroutes/>
 
       </div>
   </>
