@@ -36,7 +36,6 @@ export const Navbar = () => {
      <div>   <Link to="/home">Home</Link>  </div>
      <div>  <Link to="/about">About</Link>  </div>
      <div>   <Link to="/products">Products</Link>  </div>
-     <div>  <Link to="/login">Login</Link>   </div>
      
 {/*        
      <div>   <a href="/home"/>Home<a/>  </div>
