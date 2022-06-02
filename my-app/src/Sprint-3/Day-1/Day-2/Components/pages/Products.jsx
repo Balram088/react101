@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 
+
 const Products = () => {
   const [products ,setProducts ] = useState([]);
   useEffect(() => {
@@ -14,14 +15,12 @@ const Products = () => {
   return (
 
     <div>
+       
       {products.map((p) => (
         <div key={p.id}>
-          <table>
-            <th>Product</th>
-            <tr>{p.name}</tr>
-            <th>Price</th>
-            <tr>{p.price}</tr>
-          </table></div>
+          <Link to={`/products/${p.id}`}>{p.name}</Link>
+      {  p.price}
+          </div>
       ))}
     </div>
   )
