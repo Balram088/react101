@@ -1,8 +1,8 @@
 import React from "react";
-import { useContext } from "react";
+// import { useContext } from "react";
 import { useState } from "react";
 import styled from "styled-components";
-import { AuthContext } from "../context/AuthContext";
+// import { AuthContext } from "../context/AuthContext";
 
 const Wrapper = styled.div`
    dixplay:flex;
@@ -64,3 +64,5 @@ const [loginCreds,setLoginCreds] = useState({});
   );
   }
 }
+
+

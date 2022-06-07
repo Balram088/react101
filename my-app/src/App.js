@@ -15,7 +15,7 @@ import React from 'react';
 // import { Test } from './Sprint-2/day3/Test';
 // import Form from './Sprint-2/day3/Form';
 // import Styled from './Sprint-2/day4/Styled';
-import Mainroutes from './Sprint-3/Day-1/Day-2/Routes/MainRoutes';
+// import Mainroutes from './Sprint-3/Day-1/Day-2/Routes/MainRoutes';0
 function App() { 
 
 return (
@@ -30,15 +30,18 @@ return (
      
        {/* <Todos/>  */}
        {/* <Todo/>  */}
-      {/* <Stopwatch/> */}
+       {/* <Stopwatch/>  */}
       {/* <Test/> */}
       {/* <Form/> */}
       {/* <Styled/> */}
-      <Mainroutes/>
+      {/* <Mainroutes/> */}
+      
 
+       
       </div>
   </>
   )};
+
 
 
 export default App;
