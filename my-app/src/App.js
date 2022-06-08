@@ -15,7 +15,10 @@ import React from 'react';
 // import { Test } from './Sprint-2/day3/Test';
 // import Form from './Sprint-2/day3/Form';
 // import Styled from './Sprint-2/day4/Styled';
-// import Mainroutes from './Sprint-3/Day-1/Day-2/Routes/MainRoutes';0
+// import Mainroutes from './Sprint-3/Day-1/Day-2/Routes/MainRoutes';
+
+//REDUX
+import { TodoCounter } from './Sprint-4/Day-2/TodoCounter';
 function App() { 
 
 return (
@@ -35,6 +38,7 @@ return (
       {/* <Form/> */}
       {/* <Styled/> */}
       {/* <Mainroutes/> */}
+      <TodoCounter/>
       
 
        
