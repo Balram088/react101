@@ -6,6 +6,14 @@ import { DECREMENT_COUNTER,
         DELETE_TODO,
         COMPLETE_TODO 
     } from "./action.type";
+    // export const getTodos = (dispatch) =>{
+    //     dispatch({type: GET_TODOS_LODING });
+    //     //this time is wating
+    //     return axios
+    //     .get("db")
+    //     .then(r) =>
+    // }
+
 
     //counter App
     export const counterInc = () => ({type: INCREMENT_COUNTER});

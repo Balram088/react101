@@ -5,10 +5,10 @@ import {
     compose
     } from 'redux';
     
-    import { counterReducer } from "./counter.reducer";
-    import { todoReducer } from "./todo.reducer";
+    import { counterReducer } from './Counter/counter.reducer';
+    import { todoReducer } from './Todo/todo.reducer';
 
-    const composeEnhancers = window._REDUX_DEVTOOLS_EXTENSION_COMPOSE_ || compose;
+    const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
     
     const rootReducer =combineReducers({
         counter:counterReducer,
